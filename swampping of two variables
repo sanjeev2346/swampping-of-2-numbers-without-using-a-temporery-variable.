@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdio.h>
+main()
+{
+	int a,b;
+	printf("Enter the two values\n");
+	scanf("%d%d",&a,&b);
+	printf("Before swampping a =%d\n",a);
+	printf("Before swampping b =%d\n",b);
+	
+	a=a+b;
+	b=a-b;
+	a=a+b;
+	printf("After swampping a=%d\n",a);
+	printf("After swampping b=%d",b);
+	return 0;
+}
